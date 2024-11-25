@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#data-list-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-image: url("../../assets/fondo-dia.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+[theme="dark"] #data-list-main-container {
+  background-image: url("./src/assets/rosario.jpg");
+
+}
+
+
+.users-list-data-list {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: rgba(227, 227, 227, 0.817);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(250, 217, 1, 0.1);
+  width: 50%;
+}
+
+[theme="dark"] .users-list-data-list {
+  background-color: rgba(51, 51, 51, 0.817);
+}
+
+[theme="dark"] .users-list-data-list h2 {
+  color: #ffd700;
+}
+
+.users-list-data-list h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.add-button {
+  display: block;
+  margin: 0 auto 20px auto;
+  padding: 10px 20px;
+  background-color: #ffd700;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.add-button:hover {
+  background-color: #e0fb81;
+}
+
+thead {
+  background-color: #ffd700;
+  color: #333;
+}
+
+[theme="dark"] thead {
+  background-color: rgba(51, 51, 51, 0.817);
+  color: #ffd700;
+
+}
+
+.add-user-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.add-user-form input {
+  width: 80%;
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-user-form button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-user-form button:hover {
+  background-color: #0056b3;
+}
+
+#data-list-table-container {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+[theme="dark"] #data-list-table-container {
+  color: #ffd700;
+
+}
+
+#data-list-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#data-list-table th,
+td {
+  padding: 12px;
+  text-align: left;
+
+}
+
+.user-item {
+  border-bottom: 1px solid #333;
+}
+
+[theme="dark"] .user-item {
+  border-bottom: 1px solid #ffd700;
+
+}
+
+/* Botones de acción */
+.edit-button,
+.delete-button,
+.save-button {
+  padding: 6px 12px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-size: 14px;
+}
+
+.delete-button {
+  background-color: #dc3545;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
