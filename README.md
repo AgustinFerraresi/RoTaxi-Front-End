@@ -16,30 +16,28 @@ Este es el Front End de la app RoTaxi el cual fue realizado usando: React js , R
 El usuario debe iniciar sesion colocando su email, contraseña y su rol, si no tiene una cuenta puede crearse una para ser pasajero o conductor
 
 # Casos de uso pasajero
--Iniciar sesion
--Crear un viaje
--Cancelar viaje
--Editar la informacion de su perfil
+- Iniciar sesion
+- Crear un viaje
+- Cancelar viaje
+- Editar la informacion de su perfil
 
 # Casos de uso conductor
--Iniciar sesion
--Ver una lista de viajes disponibles
--Aceptar un viaje
--Cancelar un viaje
--Editar la informacion de su perfil
+- Iniciar sesion
+- Ver una lista de viajes disponibles
+- Aceptar un viaje
+- Cancelar un viaje
+- Editar la informacion de su perfil
 
 # Casos de uso admin
--Iniciar sesion
--Crear usuarios (pasajeros, conductores y admins)
--Eliminar usuarios (pasajeros, conductores y admins)
--Crear un viaje
--Cancelar viaje
--Editar la informacion de su perfil
--Ver una lista de viajes disponibles
--Aceptar un viaje
--Cancelar un viaje
-
-#
+- Iniciar sesion
+- Crear usuarios (pasajeros, conductores y admins)
+- Eliminar usuarios (pasajeros, conductores y admins)
+- Crear un viaje
+- Cancelar viaje
+- Editar la informacion de su perfil
+- Ver una lista de viajes disponibles
+- Aceptar un viaje
+- Cancelar un viaje
 
 # English
 
